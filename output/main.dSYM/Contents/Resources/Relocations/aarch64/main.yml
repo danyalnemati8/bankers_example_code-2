@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/danyalnemati/Downloads/bankers_example_code 2/output/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _min, symObjAddr: 0x0, symBinAddr: 0x100003878, symSize: 0x48 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _min, symObjAddr: 0x0, symBinAddr: 0x100003878, symSize: 0x48 }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _parse, symObjAddr: 0x48, symBinAddr: 0x1000038C0, symSize: 0xA8 }
+  - { offsetInCU: 0xD7, offset: 0xD7, size: 0x8, addend: 0x0, symName: _execute, symObjAddr: 0xF0, symBinAddr: 0x100003968, symSize: 0x180 }
+  - { offsetInCU: 0x161, offset: 0x161, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x270, symBinAddr: 0x100003AE8, symSize: 0x304 }
+...
